@@ -13,10 +13,19 @@ h1 .logo {
     margin-bottom: 20px;
     
 }
+#Spic2 {
+    
+    float: right;
+    
+}
 #Vpic2 {
     
     width: 45%;
     
+}
+
+img {
+    padding: 10px;   
 }
 
 body {
