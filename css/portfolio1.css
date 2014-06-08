@@ -1,5 +1,13 @@
 .top-spacing {
-    margin-top: 100px;
+           
+}
+
+
+#header-cont {
+    width:100%;
+    height: 100px;
+    
+   
     
 }
 
@@ -15,14 +23,42 @@ h1 .logo {
 }
 #Spic2 {
     
-    float: right;
+    float: left;
     
 }
 #Vpic2 {
     
     width: 45%;
+    float: left;
     
 }
+
+#GRpic {
+    width: 55%;  
+    height: auto;
+}
+
+#BJpic {
+    width: 45%;  
+    height: auto;
+}
+
+#HSpic {
+ width:45%;   
+    
+}
+
+#castpic {
+    width: 45%;
+    
+}
+    
+#LDSpic {
+    width: 35%;
+       
+}
+    
+
 
 img {
     padding: 10px;   
@@ -33,6 +69,7 @@ body {
     color: #B5B5B5;
     font: 120%/1.5em "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
     margin: 25px;
+    
 }
 
 div {
@@ -62,6 +99,10 @@ ul .nav-bar-links {
     font-size: 15px;
 }
     
+h2 {
+ font-size:310%;  
+    
+}
 
 #footer {
     width: 100%;
@@ -73,4 +114,9 @@ ul .nav-bar-links {
 #bod {
     padding-top: 20%;
     
+}
+
+#main-bar {
+    
+  
 }
