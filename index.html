@@ -25,7 +25,13 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
       
-      <div id="header-cont" class="row top-spacing"></div>
+      <div id="header-cont" class="row top-spacing">
+      
+      <div id="headername" class="affix">
+            <h1 id="logo">BRENDAN O'GRADY</h1>
+          
+          
+          </div>
 <div class="container">
     
     
@@ -35,7 +41,7 @@
 	    <div class="col-md-4" id="nav-bar">
             
             <div class="affix">
-            <h1 id="logo">BRENDAN O'GRADY</h1>
+            <!-- <h1 id="logo">BRENDAN O'GRADY</h1> -->
             
 	        <ul class="nav">
 	            <li><h5><a href="#index">Introduction</a></h5></li>
@@ -44,8 +50,7 @@
                 <li><h5><a href="#electronics">Electronics</a></h5></li>
                 <li><h5><a href="#composites">Composites</a></h5></li>
                 <li><h5><a href="#cadmodels">CAD Modeling</a></h5></li>
-	            <li><h5><a href="#picturesum">Picture Summary</a></h5></li>
-                <li><h5><a href="#contact">Contact Info</a></h5></li>
+	            <li><h5><a href="#contact">Contact Info</a></h5></li>
                 <li><h5><a href="#downloads">Downloads</a></h5></li>
             </ul>
 	    </div>
@@ -60,7 +65,7 @@
             <a name="mechDe"></a>
             <p></p>
             
-	       <br><br><br><br><br><br>
+	       <br><br><br><br><br><br><br>
 
 <h2>Mechanical Design</h2>
             
@@ -68,8 +73,10 @@
 <p></p>
 
 
-<h3>Valvetrain </h3>
-<p>At Cummins my primary responsibility is with camshaft design and valvetrain anlaysis</p>
+<h3>Valvetrain Work</h3>
+<p>At Cummins my primary responsibility is with camshaft design and valvetrain anlaysis. Through this work I have been responsible for updating dynamic analysis models for different engines and creating a camshaft design and optimization methodology.</p>
+            
+            
 
 
 <h3>Geartrain Design</h3>
@@ -99,17 +106,26 @@ For issues found in systems where the simplified calculations are not sufficient
 <h3>Failure Analysis</h3>
 <p>During testing when a component fails the approach taken to analysis the failure is a physics based approach that steps through a fault tree of possible failure modes and based on measurements, testing or analysis aims to define the root cause and propose solutions.</p>
 <br><br>
-<p>In the example shown the system being tested was a geartrain accessory drive with a hydraulic pump attached directly to the housing. The mass of the pump puts a bending moment on the gear housing and also changes the natural frequency of the system. The physics based approach to root cause investigation starts by defining the problem and splitting up the cause with the system having higher loading than it was designed for, or having insufficient strength. In this case the latter item leads you to investigate the material properties of the failed component as well as look at the crack initiation and propogation. Then investigating if the system was loaded higher than what it was designed for leads into looking </p>
-
+            
+<img  id="ghpic" src="pics2/ghcrackpic.jpg">
+<p>In the example shown the system being tested was a geartrain accessory drive with a hydraulic pump attached directly to the housing. The mass of the pump puts a bending moment on the gear housing and also changes the natural frequency of the system. The physics based approach to root cause investigation starts by defining the problem and splitting up the cause with the system having higher loading than it was designed for, or having insufficient strength. In this case the latter item leads you to investigate the material properties of the failed component as well as look at the crack initiation and propogation. Then investigating if the system was loaded higher than what it was designed for leads into looking. It was found that the natural frequency of the pump system was excited by engine firing. The analysis correlated well with actual vibration test data.</p>
+            
+<img  id="datapic" src="pics2/ghcrackdata.png">
+            <img  id="crackpic" src="pics2/ghcrackansys.png">
+            <img  id="crackpic" src="pics2/ghcracksol.png">
+            
 
 
 <h3>Casting Design</h3>
-<p>As part of severel projects I have worked on castings such as flywheel housings and gear housings.</p>
+<p>As part of severel projects I have worked on castings such as flywheel housings and gear housings and have done solid modeling for the base casting and machining models as well as structural analysis.</p>
 
 <img  id="castpic" src="pics2/fwhcad.jpg">
 <img  id="castpic" src="pics2/fwhansys.jpg">
 <img  id="castpic" src="pics2/fwhansys1.jpg">
-
+<img  id="castpic" src="pics2/ghcad.jpg">
+            
+<img id="castpic" src="pics2/LPbase_casting.png">
+<img id="castpic" src="pics2/LPbase_machining.png">
 
 
 
@@ -124,7 +140,7 @@ For issues found in systems where the simplified calculations are not sufficient
             
 <a name="thesis"></a>
             <p></p>
-            <br><br><br><br><br><br>
+            <br><br><br><br><br><br><br>
 
             
 <h2>Graduate Thesis</h2>
@@ -147,7 +163,7 @@ For issues found in systems where the simplified calculations are not sufficient
 <a name="electronics"></a>
             <p></p>
             
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 <h2>Electronics Projects</h2>
 
@@ -176,7 +192,7 @@ For issues found in systems where the simplified calculations are not sufficient
             <a name="composites"></a>
             <p></p>
 
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 <h2>Composites</h2>
 <br><br>
@@ -197,39 +213,41 @@ For issues found in systems where the simplified calculations are not sufficient
             
 <h3>Supermileage Vehicle</h3>
 <img class="img-responsive" id="pic2" src="pics2/compositecar.jpg">
-<img class="img-responsive" id="pic2" src="pics/SMV.jpg">
+<img class="img-responsive" id="pic2" src="pics2/SMV.jpg">
 
 
 <a name="cadmodels"></a>
             <p></p>
 
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
             
             
 <h2>Cad Modeling</h2>
-<img  src="pics2/cncmill.png">
-<img src="pics/smvmodel.jpg">
-<img  src="pics2/snakeppod.jpg">
+            <p>Solid modeling experience in both Proe/Creo and Solidworks.</p>
+<img id="halfpic" src="pics2/cncmill.png">
+<img id="halfpic" src="pics/smvmodel.jpg">
+<img id="halfpic" src="pics2/snakeppod.jpg">
 
-<img  src="pics2/PPod.png">
+<img id="halfpic" src="pics2/PPod.png">
 
-<img  src="pics2/Rowbot.png">
-<img  src="pics/solar1.png">
-<img  src="pics/solar3.png">
-<img  src="pics2/finaldesignback.gif">
-<img  src="pics2/Spindle.jpg">
-<img  src="pics2/JackParts_2.png">
+<img id="halfpic" src="pics2/Rowbot.png">
+<img id="halfpic" src="pics/solar1.png">
+<img id="halfpic" src="pics/solar3.png">
+<img id="halfpic" src="pics2/finaldesignback.gif">
+<img id="halfpic" src="pics2/Spindle.jpg">
+<img id="halfpic" src="pics2/JackParts_1.png">
+<img id="halfpic" src="pics2/JackParts_2.png">
 <img  src="pics2/breathervalve.jpg">
-<img  src="pics2/JackParts_1.png">
-<img  src="pics2/LPbase_casting.png">
-<img  src="pics2/LPbase_machining.png">
-            <img  src="pics2/Elec_pump2.png">
-            <img  src="pics2/Elec_pump3.png">
-            <img  src="pics2/Elec_pump1.png">
+
+
+            <img id="elpump" src="pics2/Elec_pump2.png">
+            <img id="elpump" src="pics2/Elec_pump1.png">
+            <img id="elpump" src="pics2/Elec_pump3.png">
+            
 
 <img  src="pics2/FireplaceBlowerGrate.JPG">
-<img  src="pics2/Gasifer.JPG">
-<img  src="pics2/gearassmcad.jpg">
+<img id="halfpic" src="pics2/Gasifer.JPG">
+<img id="halfpic" src="pics2/gearassmcad.jpg">
 
 
 
@@ -238,7 +256,7 @@ For issues found in systems where the simplified calculations are not sufficient
             <a name="contact"></a>
             <p></p>
 
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 <h2>Contact Info</h2>
             
@@ -248,10 +266,10 @@ For issues found in systems where the simplified calculations are not sufficient
 
 
 
-<a name="download"></a>
+<a name="downloads"></a>
             <p></p>
 
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 <h2>Downloads</h2>
             <h4><a href="http://path.to/files/BrendanOGrady.pdf">Brendan O'Grady Resume</a></h4>
@@ -265,7 +283,7 @@ For issues found in systems where the simplified calculations are not sufficient
 
 
             
-            
+         
             
             
 	        
